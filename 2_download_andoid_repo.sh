@@ -1,9 +1,5 @@
 #!/bin/bash
 echo "################################################################################################"
-echo "Downloading Android rules"
-wget -S -O - http://source.android.com/source/51-android.rules | sed "s/<username>/$USER/">>/etc/udev/rules.d/51-android.rules
-chmod a+x /etc/udev/rules.d/51-android.rules
-echo "################################################################################################"
 echo "Creating Directories"
 mkdir -p ~/bin
 mkdir -p ~/AOSP_Galarza
